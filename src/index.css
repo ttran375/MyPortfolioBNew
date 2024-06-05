@@ -24,7 +24,7 @@ a:hover {
 
 body {
   margin: 0;
- 
+
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -68,24 +68,17 @@ button:focus-visible {
 }
 
 nav {
-float:right;
-font-size:x-large;
-
+  float: right;
+  font-size: x-large;
 }
 
-
-
-
-
-
-.bg{
-  position:absolute;
+.bg {
+  position: absolute;
   top: -4em;
   right: 0;
   z-index: -1;
   object-fit: cover;
   height: 100vh;
-  
 }
 
 .introContent {
@@ -95,19 +88,18 @@ font-size:x-large;
   padding-top: 1em;
   font-size: 3em;
   font-weight: 700;
-  
+
   justify-content: center;
 }
 
 .hello {
   font-size: 1.75rem;
-  font-weight:100px;
+  font-weight: 100px;
 }
 
 .introName {
   color: Blue;
 }
-
 
 .introPara {
   font-size: 40px;
@@ -122,16 +114,14 @@ font-size:x-large;
   border-radius: 2rem;
 }
 
-
-.btnImg{
+.btnImg {
   object-fit: cover;
   margin: 0 0.25rem;
   height: 1rem;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
   .bg {
-    right: -20vw
+    right: -20vw;
   }
 }
-
