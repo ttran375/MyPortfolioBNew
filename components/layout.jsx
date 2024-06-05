@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import football1 from '../../../src/assets/football1.jfif';
+import football1 from '../src/assets/football1.jfif';
 export default function Layout() {
  return (
  <>

@@ -1,7 +1,7 @@
-import BBG from '../../../src/assets/BBG.jfif';
-import hire from '../../../src/assets/hire.jpg';
+import BBG from '../src/assets/BBG.jfif';
+import hire from '../src/assets/hire.jpg';
 import { Link } from 'react-router-dom';
-import '../../../src/index.css'
+import '../src/index.css'
 
 export default function Home() {
      return <>
